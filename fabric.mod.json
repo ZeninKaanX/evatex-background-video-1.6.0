@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "evatexbackgroundvideo",
+  "version": "1.6.0",
+  "name": "EVATEX-Background Video",
+  "description": "Minecraft ana menü arka planını istediğiniz videoyla değiştirir. Videoyu ana menüdeki 'Video Menüsü' butonundan seçebilirsiniz; videoları oyun klasöründeki 'videolar' klasörüne atın.\nEverVerity tarafından yapılmıştır / Made by EverVerity.",
+  "authors": [
+    "EverVerity"
+  ],
+  "contributors": [
+    "eververity"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/videomenu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.videomenu.VideoMenuClient"
+    ]
+  },
+  "mixins": [
+    "videomenu.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {}
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">1.20",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
