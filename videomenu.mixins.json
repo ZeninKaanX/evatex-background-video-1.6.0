@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.videomenu.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RotatingCubeMapRendererMixin",
+    "NativeImageAccessor",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
